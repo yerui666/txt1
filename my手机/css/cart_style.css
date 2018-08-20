@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+.title{
+    background-color: #f8f8f8;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+.title>p{
+    font-size: 16px;
+    line-height: 40px;
+}
+.list{
+    margin-top: 10px;
+    background-color: white;
+}
+.dianpu{
+    padding: 3px 10px;
+}
+.dianpu>a{
+    color: #383838;
+}
+.imageblock>img{
+    width: 100%;
+}
+.shangpin{
+    padding: 5px 10px;
+}
+.textright{
+    padding: 0 10px;
+}
+.txt{
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.style{
+    color: #9d9d9d;
+}
+.price{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+.jj{
+    width: 60px;
+}
+.jian,.jia{
+    float: left;
+    display: inline-block;
+    width: 15px;
+    line-height: 17px;
+    text-align: center;
+    margin: 0;
+}
+.jian{
+    border: 1px solid silver;
+    border-right: none;
+}
+.jia{
+    border: 1px solid silver;
+    border-left: none;
+}
+.num{
+    float: left;
+    width: 25px;
+    height: 19px;
+    text-align: center;
+}
+.youhuo{
+    display: inline-block;
+    width: 76px;
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+}
+.jiesuan{
+    position: fixed;
+    bottom: 40px;
+    width: 320px;
+    height: 60px;
+    padding: 15px 10px;
+    background-color: #f4f5f1;
+}
+.span1{
+    font-size: 13px;
+}
+.span2{
+    margin-left: 50px;
+}
+.span3{
+    display: inline-block;
+    width: 70px;
+    color: red;
+    font-weight: bold;
+}
+.span4{
+    display: inline-block;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.span4>a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.main{
+    position: fixed;
+    bottom: 0;
+    width: 320px;
+    background-color: #f0eeef;
+    color: #4689ff;
+    padding: 5px 0;
+}
+.footer{
+    width: 20%;
+}
