@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding-bottom: 50px;
+}
+.title{
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    z-index: 10;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+}
+.xian{
+    font-size: 13px;
+}
+.search{
+    width: 200px;
+    height: 27px;
+    font-size: 14px;
+    padding-left: 20px;
+    z-index: 3;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 6px;
+    outline: none;
+    border-style: none;
+}
+.titletext{
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    z-index: -2;
+    color: white;
+    top: 14px;
+    left: 100px;
+    font-size: 13px;
+}
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+.nav_banner{
+    width: 1600px;
+    margin-left: 0;
+}
+.nav_banner>li{
+    width: 320px;
+    height: auto;
+}
+.nav_banner>li img{
+    width: 100%;
+    height: 100%;
+}
+.dianlist{
+    position: absolute;
+    z-index: 1;
+    bottom: 15px;
+    right: 130px;
+}
+.dianlist>div{
+    float: left;
+    margin: 0 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+.advertise{
+    width: 320px;
+    height: 82px;
+}
+.advertise>img{
+    width: 100%;
+}
+.sort{
+    margin-top: 1px;
+    border-top: 1px solid #efefef;
+    padding: 10px 0;
+    background-color: white;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+}
+.nav>li{
+    width: 20%;
+}
+.nav>li>a{
+    display: block;
+    padding: 3px 0;
+}
+.imgblock{
+    padding: 3px 15px;
+}
+.imgblock>img{
+    width: 100%;
+}
+.nav>li>a>p{
+    font-size: 13px;
+    line-height: 20px;
+    color: gray;
+    text-align: center;
+}
+.picl>img{
+    width:100%;
+}
+.photol>img{
+    width: 100%;
+}
+.shenghuojia>img{
+    width: 100%;
+}
+.list1{
+    margin-top: 5px;
+}
+.listl,.listr{
+    border-bottom: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+}
+.listl>img{
+    width: 100%;
+}
+.list2{
+    margin-top: 5px;
+}
+.listr>img{
+    width: 100%;
+}
+.main{
+    position: fixed;
+    bottom: 0;
+    width: 320px;
+    background-color: #f0eeef;
+    color: #4689ff;
+    padding: 5px 0;
+}
+.footer{
+    width: 20%;
+}

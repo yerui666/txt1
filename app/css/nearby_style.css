@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    width: 320px;
+    height: auto;
+    padding-bottom: 45px;
+    background-color: #f4f4f4;
+}
+.title{
+    background-color: #f8f8f8;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+#search{
+    border-style: none;
+    outline: none;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-radius: 3px;
+    color: #6e6e6e;
+}
+.sd{
+    position: absolute;
+    right: 16px;
+    top: -15px;
+    width: 30px;
+    height: 50px;
+    background: url("../image/nearby/top.png") no-repeat;
+    background-size: auto 230px;
+    background-position: 0 -14px;
+}
+.title2{
+    background-color: white;
+    padding: 5px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+.rightline{
+    border-right: 1px solid silver;
+}
+.titletxt{
+    line-height: 20px;
+    font-size: 12px;
+}
+.dianpu{
+    background-color: white;
+    margin-top: 10px;
+}
+.imgleft{
+    padding: 10px;
+}
+.imgleft>img{
+    width: 100%;
+}
+.txtright{
+    padding: 10px;
+}
+.pxiaoliang{
+    color: gray;
+    margin-top: 30px;
+}
+.main{
+    position: fixed;
+    bottom: 0;
+    width: 320px;
+    background-color: #f0eeef;
+    color: #4689ff;
+    padding: 5px 0;
+}
+.footer{
+    width: 20%;
+}
